@@ -3,7 +3,7 @@ import './App.css';
 import DisconnetPage from './DisconnetPage';
 import AgentScreen from './AgentScreen';
 // import ConnectFB from './ConnectFB';
-// import Register from './Register';\
+// import Register from './Register';
 // import SignIn from './SignIn';
 
 function App() {

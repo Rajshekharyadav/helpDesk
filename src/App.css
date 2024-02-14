@@ -23,12 +23,30 @@
 .sideNav{
 width: 5%;
 height: 100vh;
-background-color:blue;
+background-color:rgb(2, 2, 68);
+}
+.sideLogo, .sideMail ,.sideConnect, .sideDas{
+  width: 100%;
+  height: 7vh;
+  margin: 0 auto;
+  padding: auto;
+}
+
+.sideLogo, .sideMail ,.sideConnect, .sideDas >p {
+  font-size: 35px;
+  color: white;
+}
+.sideNavActive{
+  background-color: white;
+  color:rgb(2, 2, 68) ;
+  padding-top: 2px;
+  padding-bottom: 5px;
+
 }
 .conversations{
 width: 20%;
 height: 100vh;
-background-color: aquamarine;
+background-color: rgb(255, 255, 255);
 }
 .conHead{
   width: 100%;
@@ -39,10 +57,12 @@ background-color: aquamarine;
   font-size: 25px;
   padding-top: 20px;
   font-weight:bolder;
-  border-bottom: 1px solid rgb(45, 44, 44, 0.3);
+  border: 1px solid rgb(45, 44, 44, 0.3);
 }
+
 .navLogo{
   width: 15%;
+  padding-left: 10px;
 }
 .navTitle{
   width: 70%;
@@ -53,10 +73,13 @@ background-color: aquamarine;
 .people{
   width: 100%;
   height: 120px;
-  background-color: rgb(122, 123, 120, 0.5);
+  /* background-color: rgb(122, 123, 120, 0.5); */
   display: flex;
   flex-direction: column;
   border: 1px solid rgb(82, 82, 82, 0.4);
+}
+.peopleActive{
+  background-color: rgb(226, 240, 255);
 }
 .Name{
   width: 100%;
@@ -89,19 +112,79 @@ background-color: aquamarine;
 .chatScreen{
  width: 55%;
  height: 100vh;
- background-color: bisque;
+ background-color: rgb(252, 246, 239);
  display: flex;
- flex-direction: row;
+ flex-direction: column;
 }
-/* .chatHead{
+.writeMessage{
+  background-color: white;
+  position: absolute;
+  width: 55%;
+  bottom: 1px;
+}
+.chatHead{
   width: 100%;
-  background-color: rgb(12, 148, 148);
+  background-color: azure;
   height: 50px;
+  font-size: 25px;
+  padding-top: 20px;
   font-weight:bolder;
-  border-bottom: 1px solid rgb(45, 44, 44, 0.3);
-} */
+  border: 1px solid rgb(45, 44, 44, 0.3);
+}
+.chatHead>p{
+  margin-block-start: 0px;
+  padding-left: 15px;
+}
 .customerDetails{
   width:20%;
   height: 100vh;
-  background-color: blueviolet;
+  background-color: rgb(241, 244, 255);
+  display: flex;
+  flex-direction: column;
+}
+.cusProfile{
+  width: 100%;
+  height: 35%;
+  background-color: white;
+  border: 1px solid rgb(100, 100, 100, 0.5);
+}
+#profile{
+  border-radius: 100px;
+  width: 100px;
+  margin-top: 10%;
+  margin-left: 35%;
+  margin-right: auto;
+}
+.proButton{
+  margin: 20px;
+  padding-left: 20px;
+
+  align-items: center;
+}
+.proButton>Button{
+  margin-left: 40px;
+}
+.cusDetails{
+  width: 88%;
+  height: 24%;
+  margin: 3%;
+  padding: 3%;
+  border-radius: 30px;
+  background-color:white;
+  border: 1px solid rgb(100, 100, 100, 0.5);
+  
+}
+.cusPerInfo{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.leftInfo{
+  width: 50%;
+}
+.leftInfo>p>a{
+  text-decoration: none;
+}
+.rightInfo>p{
+  font-weight: 700;
 }
