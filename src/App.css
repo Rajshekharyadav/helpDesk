@@ -1,0 +1,107 @@
+.AContainer{
+  background-color: blue;
+  width: 100%;
+  height: 100vh;
+  padding-top: 150px;
+  
+}
+.CAccount{
+  /* top:400px; */
+  margin: auto;
+  width: 400px;
+  background-color: white;
+  border-radius: 20px;
+  padding: 40px ;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.mainScreen{
+  display:flex;
+  flex-direction: row;
+  width: 100%;
+}
+.sideNav{
+width: 5%;
+height: 100vh;
+background-color:blue;
+}
+.conversations{
+width: 20%;
+height: 100vh;
+background-color: aquamarine;
+}
+.conHead{
+  width: 100%;
+  background-color: azure;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  font-size: 25px;
+  padding-top: 20px;
+  font-weight:bolder;
+  border-bottom: 1px solid rgb(45, 44, 44, 0.3);
+}
+.navLogo{
+  width: 15%;
+}
+.navTitle{
+  width: 70%;
+}
+.navRefresh{
+  width: 15%;
+}
+.people{
+  width: 100%;
+  height: 120px;
+  background-color: rgb(122, 123, 120, 0.5);
+  display: flex;
+  flex-direction: column;
+  border: 1px solid rgb(82, 82, 82, 0.4);
+}
+.Name{
+  width: 100%;
+  height: 70px;
+  display: flex;
+  flex-direction: row;
+}
+.nameCheck{
+  width: 15%;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+.fullName{
+  width: 75%;
+  height: 50%;
+}
+.nameBold{
+  font-weight: 800;
+}
+
+.time {
+  width: 15%;
+}
+.NameDes{
+  padding-left: 20px;
+}
+.NameDes>p{
+  margin-block-start: 0px;
+}
+.chatScreen{
+ width: 55%;
+ height: 100vh;
+ background-color: bisque;
+ display: flex;
+ flex-direction: row;
+}
+/* .chatHead{
+  width: 100%;
+  background-color: rgb(12, 148, 148);
+  height: 50px;
+  font-weight:bolder;
+  border-bottom: 1px solid rgb(45, 44, 44, 0.3);
+} */
+.customerDetails{
+  width:20%;
+  height: 100vh;
+  background-color: blueviolet;
+}
